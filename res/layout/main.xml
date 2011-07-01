@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TableLayout android:id="@+id/tableLayout1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            </TableRow>
+            <TextView android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="" android:layout_height="wrap_content" android:id="@+id/lblResult"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:text="XML" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnXML"></Button>
+            <Button android:text="JSON" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnJSON"></Button>
+            <Button android:text="ProtoBuf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnProtoBuf"></Button>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:layout_width="wrap_content" android:id="@+id/btnThrift" android:text="Thrift" android:layout_height="wrap_content"></Button>
+        </TableRow>
+    </TableLayout>
+    <RadioGroup android:id="@+id/radioGroup1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RadioButton android:layout_height="wrap_content" android:text="Serialize" android:layout_width="wrap_content" android:id="@+id/radSerialize" android:checked="true"></RadioButton>
+        <RadioButton android:layout_height="wrap_content" android:text="Deserialize" android:layout_width="wrap_content" android:id="@+id/radDeserialize"></RadioButton>
+    </RadioGroup>
+    <CheckBox android:id="@+id/chkTest" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Test Mode"></CheckBox>
+</LinearLayout>

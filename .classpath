@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="lib" path="C:/Users/lamar/Desktop/Audie/Serializers/jackson-core-asl-1.8.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lamar/Desktop/Audie/Serializers/simple-xml-2.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lamar/Desktop/Audie/Serializers/protobuf-java-2.4.1-lite.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lamar/Desktop/Audie/Serializers/libthrift-0.6.1-snapshot.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lamar/Desktop/Audie/Serializers/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lamar/Desktop/Audie/Serializers/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lamar/Desktop/Audie/Serializers/slf4j-log4j12-1.5.8.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

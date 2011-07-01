@@ -1,0 +1,22 @@
+package serializertest;
+
+option java_package = "com.reu.serializationtest";
+option java_outer_classname = "BookProtos";
+
+message Book {
+	required string title = 1;
+	required string author = 2;
+	optional string description = 3;
+	optional string image = 4;
+	required int32 numInStock = 5;
+	required double price = 6;
+	required bool onSale = 7;
+	
+	enum BookType {
+		PAPERBACK = 0;
+		HARDCOVER = 1;
+		DIGITAL = 2;
+	}
+	
+	required BookType type = 8;
+}
